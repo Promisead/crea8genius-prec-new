@@ -1,0 +1,628 @@
+@media only screen and (max-width: 1200px){
+    ul#nav_filter {
+        margin-right: -16px;
+    }
+    .lv_sign-in {
+        padding: 6px 10px;
+        padding-left: 10px;
+    }
+    .sign_in {
+        padding-right: 8px;
+    }
+    .lv_search_bar {
+        padding: 5px 5px;
+        padding-left: 15px;
+    }
+    #nav_filter li a {
+        font-size: 14px;
+    }
+    /*----- ABOUT_US 2 PAGE --------*/
+    .heading_low h2 {
+        font-size: 36px;
+    }
+    .paragraph_law p {
+        font-size: 14px;
+    }
+    .about_menu {
+        padding: 20px 0;
+    }
+    .about_us_page2 .about_us_text {
+        padding: 10px 0 0 0;
+    }
+    /* -=-=-=-=-=-=- blog-three-page -=-=-=-=-=- */
+    .blog4 .owl-nav {
+        top: 11%;
+    }
+
+}
+/*--- 991 ---*/
+@media only screen and (max-width: 992px){
+    .tile_heading.shop_three_page {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .Showing_div{
+        width: 100%;
+        justify-content: space-between;
+    }
+    /*----- ABOUT_US 2 PAGE --------*/
+    .order_cart{
+        margin-top: 30px;
+    }
+    .shop_four{
+        padding-top: 0;
+    }
+    .tile {
+        margin-top: 30px;
+    }
+    .heading_low{
+        text-align: center;
+    }
+    .heading_low h2 {
+        margin-top: 35px;
+    }
+    .nav-tabs {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .nav-tabs .nav-item {
+        margin-bottom: 0px;
+        width: 346px;
+        margin: 0 auto;
+        display: block;
+    }
+    .choose_us_img{
+        padding: 35px 0 0 0;
+        text-align: center;
+    }
+    div#myTabContent{
+        padding: 35px 0 0 0;
+    }
+    .about_menu2{
+        padding: 25px 97px;
+    }
+    .heading_choose h2 {
+        text-align: center;
+        padding: 25px 0 0 0;
+    }
+    .five-tab .nav-item {
+        margin-bottom: 0px;
+        width: 495px;
+        margin: 0 auto;
+        display: block;
+    }
+    .about_attorney {
+        margin-top: 40px;
+    }
+    /*------ SINGLE ATTORNEY SECTION -----*/
+    .contact_attorney li {
+        padding-left: 32px;
+        font-size: 14px;
+    }
+    .contact_attorney li::before {
+        font-size: 16px;
+    }
+    .contact_attorney li+li::before {
+        font-size: 16px;
+    }
+    .contact_attorney li+li+li:before {
+        font-size: 16px;
+    }
+    .footer_content li.ex_mar {
+        margin-top: 0px;
+    }
+    /* ---- Comming-Soon ---- */
+    .comming_text h1 {
+        font-size: 100px;
+    }
+    /* ----- Gallery-five ---*/
+    .gallery_list .gallery5{
+        column-count: 3;
+    }
+    .gallery_responsive {
+        margin-top: 0px;
+    }
+    /* ------ Grid-five ----- */
+    .cases_list .grid5{
+        column-count: 3;
+    }
+    /*--------  Shop-Four-Page ------*/
+    form.shop_search{
+        width: 230px;
+    }
+    .shop_search button {
+        left: 182px;
+        top: -49px;
+    }
+    .shop_form_input:after {
+        bottom: 60px;
+    }
+    .show_item ul {
+        justify-content: flex-start;
+    }
+    .item_form_input:after {
+        bottom: 14px;
+    }
+    .shop_four .product_box{
+        margin-top: 30px;
+    }
+    /* -=-=-=- shop-singl-page  -=-=-=-=- */
+    .shop_single_img {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    /* -=-=-=-=-=-=- blog-three-page -=-=-=-=-=- */
+    .inner_page_single button {
+        height: 38px;
+        width: 45px;
+    }
+    /* -=-==-=-=-=- blog-four-page -=-=-=-=-=- */
+    .recent_case_icon4{
+        top: 42%;
+        left: 34%;
+    }
+    .recent_case_box:hover .recent_case_icon4 {
+        top: 42%;
+        left: 34%;
+    }
+    .recent_case_icon4 a i {
+        width: 44px;
+        height: 44px;
+        font-size: 16px;
+    }
+    .blog4 .owl-nav {
+        top: 15%;
+    }
+    /* -=-=-=-=-=-=- blog-five-page -=-=-=-=-=- */
+    .inner_page_single .blog5 {
+        column-gap: 20px;
+        column-count: 2;
+        justify-content: space-between;
+    }
+    .inner_page_single .blog5 li {
+        width: 44%;
+        float: left;
+    }
+    /* -=-=-=-=- my account page -=-=-=-=-=- */
+    .account_details {
+        padding: 25px 15px 0 15px;
+    }
+    .shop_author .author_box img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 921px){
+    /* -=-=-=-=-=- blog-five-section -=-=-=-=-=- */
+    .inner_page_single .blog5 {
+        column-gap: 48px;
+    }
+}
+/*--- 767 ---*/
+@media only screen and (max-width: 768px){
+    /* -=-=-=- about-us 2 -=-=-=-=- */
+    .faq_box{
+        padding-right: 0px;
+    }
+    .faq:before {
+        display: none;
+    }
+    .faq_box h2{
+        color: #000;
+    }
+    .faq_box .panel-default>.panel-heading a{
+        color: #000!important;
+    }
+    .faq_box .panel-body{
+        color: #000;
+    }
+    .consultation_box {
+        padding: 0 0 100px 0;
+    }
+    .consultation_box{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .member-content h4 {
+        padding-top: 15px;
+    }
+    .about_menu2{
+        padding: 25px 0px;
+    }
+    /* 404- page css */
+    .img_404 p {
+        width: 465px;
+        text-align: center;
+    }
+    .search-container {
+        width: 400px;
+    }
+    /* Attorney-single 1-page */
+    .member_img img{
+        max-width: 100%;
+    }
+    /* ---- Comming-Soon ---- */
+    .comming_text h1 {
+        font-size: 70px;
+    }
+    /* -------- gallery-five ------- */
+    .gallery_list .gallery5{
+        column-count: 1;
+        display: block;
+        margin: 0 auto;
+    }
+    /* ------ Grid-five ----- */
+    .cases_list .grid5{
+        column-count: 1;
+        display: block;
+        margin: 0 auto;
+    }
+    /*--------  Shop-Four-Page ------*/
+    .shop_four .second_box ul li a {
+        max-width: 168px;
+    }
+    .shop_form_input select {
+        width: 230px;
+    }
+    .shop_icon ul li a i {
+        margin-left: 10px;
+    }
+    /*--------  Shop-three-Page ------*/
+    /* -=-=-=-=-=- blog-three-page -=-=-=-=-=- */
+    /* -=-=-=-=- blog-four -=-=-=-=- */
+    .recent_case_icon4 {
+        top: 40%;
+        left: 40%;
+    }
+    .recent_case_box:hover .recent_case_icon4 {
+        top: 40%;
+        left: 40%;
+    }
+    .blog4 .owl-nav {
+        top: 22%;
+    }
+    /* -=-=-=-=-=- blog-five-page -=--=-=-=-=- */
+    .inner_page_single .blog5 {
+        column-count: 1;
+    }
+    .inner_page_single .blog5 li {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .recent_case_box .owl-carousel .owl-item{
+        margin-right: 0px;
+    }
+    .recent_case_box:hover .recent_case_icon4 {
+        top: 38%;
+        left: 34%;
+    }
+    .blog5 .owl-nav {
+        top: 44%;
+    }
+    /* -=-=-=-=- my account page -=-=-=-=-=- */
+    .address_row {
+        padding: 25px 15px 0 15px;
+    }
+    /* -=-=-=-=- checkout page -=-=-=-=-=- */
+    .card-detail .card-detail-box {
+        width: 100%;
+        float: left;
+    }
+    .card-detail .card-detail-box ul li select {
+        width: 100%;
+        min-width: 190px;
+    }
+    .card-detail .card-detail-box h4{
+        padding-top: 20px;
+    }
+    /*-=-=-=-=-=- shop single page -=-=--=-=-=-*/
+    .shop_author .author_box img{
+        width: auto;
+    }
+    .shop_author .about_author{
+        text-align: center;
+    }
+    .about_product .panel-body .shop_comment .review_box h5 {
+     float: unset; 
+    }
+    .about_product .panel-body .shop_comment .review_box .an_star {
+        float: left;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 596px){
+    /*--------  Shop-three-Page ------*/
+    .shop_icon ul {
+        display: block;
+    }
+    form.shop_search {
+        width: 100%;
+    }
+    .shop_search input {
+        width: calc(100% - 45px);
+    }
+    .shop_search button {
+        left: 0;
+        top: 0;
+    }
+    .shop_form_input select {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .shop_form_input:after {
+        bottom: 109px;
+    }
+    .shop_single_content .shop_price ul {
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 0;
+    }
+    .shop_single_content .shop_price li button{
+        width: 100%;
+    }
+    .shop_single_content .shop_price li .random{
+        width: 100%;
+    }
+    /* -=-=-=-=-=- blog-five-page --=-=-=-=- */
+}
+@media only screen and (max-width: 576px){
+    .attorney_responsive{
+        margin-top: 40px;
+    }
+    /* --------- checkout page --------*/ 
+    .card-detail .card-detail-box ul li+li select {
+        margin-left: 20px;
+    }
+    .head_checkout .payment ul {
+        display: block;
+    }
+    .head_checkout .payment ul li+li{
+        margin-top: 20px;
+    }
+    .head_checkout .card_head .credit_card ul {
+        display: block;
+    }
+    .credit_card ul li+li{
+        margin-top: 20px;
+    }
+    .side_comment_box{
+        padding: 0 !important;
+    }
+    .sb_progressive_main_wrapper .skills .skill-item{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 526px){
+    /*--------  Shop-Four-Page ------*/
+    .shop_icon ul {
+        display: block;
+    }
+    form.shop_search {
+        width: 100%;
+    }
+    .shop_search input {
+        width: calc(100% - 45px);
+    }
+    .shop_form_input select {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .shop_search button {
+        left: 0;
+        top: 0;
+        right: 3px;
+    }
+    .tile_heading{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .Showing_div , .shop_form_sidebar , .shop_form_sidebar select , .input_div , .input_div .input_dropdown{
+        width: 100%;
+    }
+    .show_item ul {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .show_item ul li{
+        width: 30%;
+    }
+    .show_item ul li + li{
+        width: 70%;
+    }
+    .show_item ul li select{
+        width: 100%;
+    }
+    .shop_single_content .product_type ul{
+        flex-direction: column;
+        row-gap:  20px;
+        column-gap: 0px;
+
+    }
+    .product_type .nice_number {
+        justify-content: space-around;
+        width: 100%;
+    }
+    .shop_single_content .product_type ul li select{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .img_404 h4 {
+        font-size: 30px;
+    }
+    .img_404 p {
+        width: 315px;
+        font-size: 14px;
+    }
+    /* ---- Comming-Soon ---- */
+    .input-group {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .comming_text h1 {
+        font-size: 55px;
+    }
+    .comming_text h2 {
+        font-size: 25px;
+    }
+    /*--------  Shop-three-Page ------*/
+    .recent_case_icon3 {
+        top: 40%;
+    }
+    .recent_case_box:hover .recent_case_icon3 {
+        top: 40%;
+    }
+    /*--------  blog-four-Page ------*/
+    /*--------  blog-three-Page ------*/
+    /*--------  checkout-Page ------*/
+    .head_checkout .pay_btn button {
+        width: 240px;
+    }
+    /* --=-=-=-=- shop-single-page -=-=-=- */
+    .review_form input {
+        width: 100%;
+        float: unset; 
+        margin-left: 0px; 
+    }
+    .review_form .review_name, .review_form .review_email{
+        transform: translateY(5px);
+    }
+    .review_form textarea{
+        margin-left: 0px;
+    }
+    .about_product .panel-body .customer_comment .review_form label {
+        float: left; 
+    }
+    .review_form textarea {
+        width: 100%;
+    }
+    /* -=-=-=-=-=- checkout page -=-=-=-=-=- */
+    .card-detail .card-detail-box ul li+li select {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .card-detail .card-detail-box ul li select {
+        width: 100%;
+        min-width: 310px;
+    }
+    /* -=-=-=-=- blog-five-page -==-=-=- */
+}
+@media only screen and (max-width: 432px){
+    .login_form span i {
+        right: 18%;
+    }
+    .login_form .unlock i {
+        right: 18%;
+    }
+    .search-container {
+        width: 265px;
+    }
+    .shop_three_page .Showing_div{
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        row-gap: 15px;
+    }
+}
+@media only screen and (max-width: 411px){
+    .contact_attorney ul {
+        column-count: 1;
+    }
+    .login_form p::after {
+        width: 105px;
+    }
+    .login_form p::before {
+        width: 105px;
+    }
+    /*--------  Shop-three-Page ------*/
+    /* -=-=-=-=- blog-four -=-=-=-=- */
+    .blog4 .owl-nav {
+        top: 16%;
+    }    
+    .recent_case_icon4 {
+        top: 40%;
+        left: 35%;
+    }
+    .recent_case_box:hover .recent_case_icon4 {
+        top: 40%;
+        left: 35%;
+    }
+    /*---------- checkout page ------- */
+    .card-detail .card-detail-box ul li select {
+        min-width: 216px;
+    }
+}
+/*--- 366 ---*/
+@media only screen and (max-width: 366px){
+    .nav-tabs .nav-item {
+        margin-bottom: 0px;
+        width: 220px;
+    }
+    .attorney_award img {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .login_form .fb_btn {
+        font-size: 14px;
+    }
+    .login_form .google_btn {
+        font-size: 14px;
+    }
+    /* ---- Comming-Soon ---- */
+    .comming_text h1 {
+        font-size: 40px;
+    }
+    .comming_text h2 {
+        font-size: 20px;
+    }
+    /*--------  Shop-three-Page ------*/
+    /* -=-=-=-=- blog-three -=-=-=-=- */
+    .recent_case_icon3 {
+        left: 30%;
+    }
+    .recent_case_box:hover .recent_case_icon3 {
+        left: 30%;
+    }
+    /* -=-=-=-=- blog-four -=-=-=-=- */
+    /* -=-=-=-=-=-=- blog-five-page -=-=-=-=-=- */
+    .recent_case_icon4 a i {
+        width: 38px;
+        height: 38px;
+        font-size: 14px;
+    }
+    .recent_case_box:hover .recent_case_icon4 {
+        top: 38%;
+        left: 32%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .login_form span i {
+        top: 40%;
+    }
+    .login_form .unlock i {
+        top: 53%;
+    }
+    .login_form p::after {
+        width: 80px;
+    }
+    .login_form p::before {
+        width: 80px;
+    }
+    .img_404 p {
+        width: 260px;
+    }
+}
+@media only screen and (max-width: 321px){
+    .login_form .unlock i {
+        top: 51%;
+    }
+    .login_form span i {
+        top: 39%;
+    }
+    /*--------  Shop-three-Page ------*/
+    /* -=-=-=-=- blog-three -=-=-=-=- */
+}
