@@ -86,10 +86,15 @@ module.exports.signup = async (req, res, next) => {
          profilePhoto
        } = req.body;
 
-      console.log(req.body);  // For debugging, remove later
+       console.log(req.body)
+
 
       // Email verification: Check if patient already exists by patientId
-      let patientExist = await User.findOne({ patientId });
+      let patientExist = await User.findOne({
+         patientId: patientId,
+         contactInfo_email: contactInfo_email
+       });
+       
 
       if (patientExist) {
          let error = new Error("Patient with this ID is already registered.");
@@ -204,7 +209,7 @@ module.exports.login = async (req, res) => {
 
     } catch (error) {
         console.error(error);
-        return res.status(500).json({ message: 'Server error' });
+        return next(error);
     }
 };
 
