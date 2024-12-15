@@ -1,6 +1,7 @@
 const express = require("express")
 const router = express.Router()
 const { verifyUser} = require("../utils/utils")
+const { test } = require("../controller/user")
 
 
 let login = require("../controller/user").login
@@ -19,5 +20,6 @@ router.post('/signup',signup)
 router.get('/users/:id',verifyUser,getUser)
 router.patch('/users/:id',verifyUser,updateUser)
 
-
+//testing routes
+router.get('/test',test)
 exports.router = router

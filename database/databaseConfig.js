@@ -31,9 +31,9 @@ const patientSchema = new mongoose.Schema({
     reasonForVisit: { type: String },
     currentMedications: { type: String },
     vitals_bloodPressure: { type: String },
-    vitals_bheartRate: { type: Number },
-    vitals_btemperature: { type: Number },
-    vitals_brespiratoryRate: { type: Number },
+    vitals_bheartRate: { type: String },
+    vitals_btemperature: { type: String},
+    vitals_brespiratoryRate: { type: String },
     attendingPhysician: { type: String },
     department: { type: String },
 
@@ -52,9 +52,9 @@ const patientSchema = new mongoose.Schema({
     upcomingAppointments_doctor: { type: String },
 
     // Section 6: Billing and Insurance Information
-    billingSummary_charges: { type: Number },
-    billingSummary_payments: { type: Number },
-    billingSummary_outstandingBalance: { type: Number },
+    billingSummary_charges: { type: String },
+    billingSummary_payments: { type: String },
+    billingSummary_outstandingBalance: { type: String },
     insurance_provider: { type: String },
     insurance_policyNumber: { type: String },
 

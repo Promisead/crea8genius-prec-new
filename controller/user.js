@@ -7,8 +7,6 @@ const { User, } = require("../database/databaseConfig");
 
 
 
-
-
 module.exports.getUserFromJwt = async (req, res, next) => {
    try {
       let token = req.headers["header"]
@@ -341,6 +339,20 @@ module.exports.updateUser = async (req, res, next) => {
 
       return res.status(200).json({
          response: savedUser
+      });
+
+   } catch (error) {
+      error.message = error.message || "An error occurred, please try again later.";
+      return next(error);
+   }
+};
+
+module.exports.test = async (req, res, next) => {
+   try {
+     
+      // Return the response with the saved patient details and the generated token
+      return res.status(200).json({
+         response:'testing API'
       });
 
    } catch (error) {
